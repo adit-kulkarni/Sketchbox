@@ -1,0 +1,49 @@
+body {
+    font-family: 'ArcadeClassic', sans-serif; 
+    padding: 0;
+    margin: 0;                                         
+}
+
+
+.topSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background-color: lightgrey;
+}
+
+.topSection header {
+    font-size: xx-large;
+    color: red;
+}
+
+.topSection.inputSection {
+    display: flex;
+}
+
+.inputSection button {
+    
+    background: forestgreen;
+    border-bottom: 6px inset rgba(0,0,0,.5);
+    border-left: 6px inset rgba(0,0,0,.5);
+    border-right: 6px inset rgba(255,255,255,.5);
+    border-top: 6px inset rgba(255,255,255,.5);
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 1rem;
+    min-width: 25px;
+    padding: .5rem;
+    text-transform: uppercase;
+    width: auto;
+    
+    &:focus,
+    &:hover {
+        background: darkgreen;
+    }
+    
+}
